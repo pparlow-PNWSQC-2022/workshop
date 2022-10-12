@@ -1,0 +1,23 @@
+{
+  "name": "devsecops-tutorial",
+  "version": "1.0.0",
+  "description": "Repo for demonstration how to implement the Github free Security features.",
+  "main": "site/javascript/index.js",
+  "scripts": {
+    "build": "docker build . -t devsecops_tutorial",
+    "start": "docker run -d -p 80:80 devsecops_tutorial"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyber-JiuJiteria/DevSecOps_Tutorial.git"
+  },
+  "keywords": [
+    "devsecops"
+  ],
+  "author": "CyberJiuJiteira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyber-JiuJiteria/DevSecOps_Tutorial/issues"
+  },
+  "homepage": "https://github.com/Cyber-JiuJiteria/DevSecOps_Tutorial#readme"
+}
